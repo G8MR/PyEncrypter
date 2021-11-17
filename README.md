@@ -4,5 +4,28 @@ A simple yet safe Python encryption package. It is still developing, and the enc
 <br>
 <br>
 
-### Wiki
-On the way. Here is the link :- https://github.com/AwesomeYoungCoder/PyEncrypter/wiki
+## Installation
+Just type the following code in your terminal to install, or you could copy and paste it as well.
+```bash
+pip install PyEncrypter
+```
+## Commands
+```python
+#Encryption command
+variable = encrypt("data_goes_here")
+
+#Decrypting command
+variable = decrypt("data goes here")
+```
+<br>
+
+## Examples for usage
+```python
+var = input("Enter your message: ")
+secret_code = encrypt(var)
+print("Your secret code is", secret_code)
+
+var2 = input("Enter secret code: ")
+message = decrypt(var2)
+print("Your message is", message)
+```
