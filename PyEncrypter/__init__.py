@@ -1,1 +1,1 @@
-from .script import encrypt, decrypt
+from PyEncrypter.script import encrypt, decrypt
