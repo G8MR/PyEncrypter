@@ -19,9 +19,3 @@ def decrypt(data):
         decoded = str(decoded)+str(x)
         y += 2
     return decoded
-    
-
-x = encrypt("hiya!")
-print(x)
-y = decrypt(x)
-print(y)
