@@ -11,21 +11,24 @@ pip install PyEncrypter
 ```
 ## Commands
 ```python
+#Importing the package
+import PyEncrypter
 #Encryption command
-variable = encrypt("data_goes_here")
+variable = PyEncrypter.encrypt("data_goes_here")
 
 #Decrypting command
-variable = decrypt("data goes here")
+variable = PyEncrypter.decrypt("data goes here")
 ```
 <br>
 
 ## Examples for usage
 ```python
+import PyEncrypter
 var = input("Enter your message: ")
-secret_code = encrypt(var)
+secret_code = PyEncrypter.encrypt(var)
 print("Your secret code is", secret_code)
 
 var2 = input("Enter secret code: ")
-message = decrypt(var2)
+message = PyEncrypter.decrypt(var2)
 print("Your message is", message)
 ```
