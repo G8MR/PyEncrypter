@@ -4,9 +4,5 @@ A simple yet safe Python encryption package. It is still developing, and the enc
 <br>
 <br>
 
-## Installation
-Just type the following code in your terminal, or you could copy and paste it as well.
-```bash
-pip install PyEncrypter
-```
-## Usage
+### Wiki
+On the way. Here is the link :- https://github.com/AwesomeYoungCoder/PyEncrypter/wiki
