@@ -1,4 +1,8 @@
-def encrypt(data):
+class Encrypt:
+    def __init__(self, data):
+        self.layer1 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-!@#'"$%^&*()"""
+    
+    def encrypt(data):
     layer1 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-!@#'"$%^&*()"""
     en1_length = int(len(data))
     en1_data = ""
