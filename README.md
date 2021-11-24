@@ -21,7 +21,9 @@ variable.encrypt(data)
 variable.decrypt(data)
 ```
 <br>
-Note: It is strongly advisable to delete the object after usage of command by the ```python del variable ``` command.
+Note: It is strongly advisable to delete the object after usage of command by the ```python
+ del variable 
+ ``` command.
 <br>
 
 ## Examples for usage
