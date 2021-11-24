@@ -4,7 +4,7 @@ PyEncrypter is a simple yet safe Python encryption package. It is still developi
 <br>
 
 ## Installation
-Just type the following code in your terminal to install, or you could copy and paste it as well.
+All you need to do is just type the following code in your terminal to install, or you could copy and paste it as well.
 ```bash
 pip install PyEncrypter
 ```
