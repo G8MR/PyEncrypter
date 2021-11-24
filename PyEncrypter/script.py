@@ -1,8 +1,8 @@
 class ObjInit:
-    def __init__(self, data):
+    def __init__(self):
         self.layer1 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-!@#'"$%^&*()"""
     
-    def encrypt(data):
+    def encrypt(self, data):
         en1_length = int(len(data))
         en1_data = ""
         for i in range(0,en1_length):
@@ -12,7 +12,7 @@ class ObjInit:
             en1_data = en1_data + str(x)
         return en1_data    
 
-    def decrypt(data):
+    def decrypt(self, data):
         decoded = ""
         data = str(data)
         y = 0
