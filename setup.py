@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PyEncrypter",                     
-    version="0.0.5",                        
+    version="0.1.17",                        
     author="AwesomeYoungCoder",
     url = "https://github.com/AwesomeYoungCoder/PyEncrypter/",
     description="A simple yet secure encryption package.",
