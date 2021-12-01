@@ -13,7 +13,7 @@ class ObjInit:
                 if x < 10:
                     x = str(0)+str(x)
                 en1_data = en1_data + str(x)
-            except CharError:
+            except ValueError:
                 logging.error("Error encountered : PyEncrypter does not support the given character. Please input a string of valid characters only.")
         return en1_data    
 
