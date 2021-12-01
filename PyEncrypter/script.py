@@ -1,6 +1,6 @@
 class ObjInit:
     def __init__(self):
-        self.layer1 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-!@#'"$%^&*()"""
+        self.layer1 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-!@#'"$%^&*()/?.,<>{[}]\|+=`~¦"""
     
     def encrypt(self, data):
         en1_length = int(len(data))
