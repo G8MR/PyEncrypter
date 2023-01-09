@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PyEncrypter",                     
-    version="0.1.18",                        
-    author="AwesomeYoungCoder",
-    url = "https://github.com/AwesomeYoungCoder/PyEncrypter/",
+    version="0.2.0",                        
+    author="G8MR",
+    url = "https://github.com/G8MR/PyEncrypter/",
     description="A simple yet secure encryption package.",
     long_description=long_description,      
     long_description_content_type="text/markdown",
