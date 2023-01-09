@@ -1,5 +1,5 @@
 # PyEncrypter
-PyEncrypter is a simple yet safe Python encryption package. It is still developing, and the encryption level is 1 as of now. I have planned to bring the final encryption level upto 3, which could take some time.
+PyEncrypter is a simple yet safe Python encryption/decryption library. In some time, the main release will be officialy published.
 
 <br>
 
@@ -7,6 +7,10 @@ PyEncrypter is a simple yet safe Python encryption package. It is still developi
 All you need to do is just type the following code in your terminal to install, or you could copy and paste it as well.
 ```bash
 pip install PyEncrypter
+```
+If it doesn't work, you could try the following:
+```bash
+python.exe -m pip install --user PyEncrypter
 ```
 ## Commands
 ```python
@@ -20,7 +24,7 @@ variable.encrypt(data)
 variable.decrypt(data)
 ```
 <br>
-Note: It is strongly advisable to delete the object after usage of command by the "del variable" command.
+Note: It is strongly advisable to delete the object after usage of the command by the "del variable" command.
 <br>
 
 ## Examples for usage
