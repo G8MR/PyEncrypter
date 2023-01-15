@@ -1,7 +1,7 @@
 import random
 
 class ObjInit:
-    def __init__():
+    def __init__(self):
         pass
 
     def decrypt(data):
