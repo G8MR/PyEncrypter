@@ -4,11 +4,11 @@ class ObjInit:
     def __init__(self):
         pass
 
-    def decrypt(data):
+    def decrypt(self, data):
         findata = decrypt_1(data)
         return findata
 
-    def encrypt(data):
+    def encrypt(self, data):
         finaldata = encrypt_1(data)
         return finaldata
 
